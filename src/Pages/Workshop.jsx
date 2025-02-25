@@ -189,10 +189,10 @@ const NoCodeWorkshop = () => {
             <p className="mb-4">Para continuar seu aprendizado em No-Code e Low-Code, confira estes recursos:</p>
             <ul className="space-y-2">
               {[
-                { text: "Documentação oficial do Typeform", href: "#" },
-                { text: "Tutoriais do Zapier", href: "#" },
-                { text: "Universidade Webflow", href: "#" },
-                { text: "Comunidade No-Code no Reddit", href: "#" }
+                { text: "Documentação oficial do Typeform", href: " https://help.typeform.com/" },
+                { text: "Tutoriais do Zapier", href: "https://zapier.com/help" },
+                { text: "Universidade Webflow", href: "https://university.webflow.com/" },
+                { text: "Comunidade No-Code no Reddit", href: "https://www.reddit.com/r/nocode/" }
               ].map((item, index) => (
                 <li key={index}>
                   <a href={item.href} className="text-terra hover:underline flex items-center gap-2">
